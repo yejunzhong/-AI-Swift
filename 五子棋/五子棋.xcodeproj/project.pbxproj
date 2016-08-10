@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2821D2F31D3B6BAB00191949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821D2F21D3B6BAB00191949 /* AppDelegate.swift */; };
+		2821D2F51D3B6BAB00191949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821D2F41D3B6BAB00191949 /* ViewController.swift */; };
+		2821D2F81D3B6BAB00191949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2821D2F61D3B6BAB00191949 /* Main.storyboard */; };
+		2821D2FA1D3B6BAB00191949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2821D2F91D3B6BAB00191949 /* Assets.xcassets */; };
+		2821D2FD1D3B6BAB00191949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2821D2FB1D3B6BAB00191949 /* LaunchScreen.storyboard */; };
+		2821D3081D3B6BAB00191949 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821D3071D3B6BAB00191949 /* ___Tests.swift */; };
+		2821D3131D3B6BAB00191949 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821D3121D3B6BAB00191949 /* ___UITests.swift */; };
+		2821D3211D3B6BBE00191949 /* line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2821D3201D3B6BBE00191949 /* line.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2821D3041D3B6BAB00191949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2821D2E71D3B6BAB00191949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2821D2EE1D3B6BAB00191949;
+			remoteInfo = "五子棋";
+		};
+		2821D30F1D3B6BAB00191949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2821D2E71D3B6BAB00191949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2821D2EE1D3B6BAB00191949;
+			remoteInfo = "五子棋";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2821D2EF1D3B6BAB00191949 /* 五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2821D2F21D3B6BAB00191949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2821D2F41D3B6BAB00191949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2821D2F71D3B6BAB00191949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2821D2F91D3B6BAB00191949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2821D2FC1D3B6BAB00191949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2821D2FE1D3B6BAB00191949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2821D3031D3B6BAB00191949 /* 五子棋Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五子棋Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2821D3071D3B6BAB00191949 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		2821D3091D3B6BAB00191949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2821D30E1D3B6BAB00191949 /* 五子棋UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "五子棋UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2821D3121D3B6BAB00191949 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		2821D3141D3B6BAB00191949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2821D3201D3B6BBE00191949 /* line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = line.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2821D2EC1D3B6BAB00191949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821D3001D3B6BAB00191949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821D30B1D3B6BAB00191949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2821D2E61D3B6BAB00191949 = {
+			isa = PBXGroup;
+			children = (
+				2821D2F11D3B6BAB00191949 /* 五子棋 */,
+				2821D3061D3B6BAB00191949 /* 五子棋Tests */,
+				2821D3111D3B6BAB00191949 /* 五子棋UITests */,
+				2821D2F01D3B6BAB00191949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2821D2F01D3B6BAB00191949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2821D2EF1D3B6BAB00191949 /* 五子棋.app */,
+				2821D3031D3B6BAB00191949 /* 五子棋Tests.xctest */,
+				2821D30E1D3B6BAB00191949 /* 五子棋UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2821D2F11D3B6BAB00191949 /* 五子棋 */ = {
+			isa = PBXGroup;
+			children = (
+				2821D2F21D3B6BAB00191949 /* AppDelegate.swift */,
+				2821D2F41D3B6BAB00191949 /* ViewController.swift */,
+				2821D3201D3B6BBE00191949 /* line.swift */,
+				2821D2F61D3B6BAB00191949 /* Main.storyboard */,
+				2821D2F91D3B6BAB00191949 /* Assets.xcassets */,
+				2821D2FB1D3B6BAB00191949 /* LaunchScreen.storyboard */,
+				2821D2FE1D3B6BAB00191949 /* Info.plist */,
+			);
+			path = "五子棋";
+			sourceTree = "<group>";
+		};
+		2821D3061D3B6BAB00191949 /* 五子棋Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2821D3071D3B6BAB00191949 /* ___Tests.swift */,
+				2821D3091D3B6BAB00191949 /* Info.plist */,
+			);
+			path = "五子棋Tests";
+			sourceTree = "<group>";
+		};
+		2821D3111D3B6BAB00191949 /* 五子棋UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2821D3121D3B6BAB00191949 /* ___UITests.swift */,
+				2821D3141D3B6BAB00191949 /* Info.plist */,
+			);
+			path = "五子棋UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2821D2EE1D3B6BAB00191949 /* 五子棋 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2821D3171D3B6BAB00191949 /* Build configuration list for PBXNativeTarget "五子棋" */;
+			buildPhases = (
+				2821D2EB1D3B6BAB00191949 /* Sources */,
+				2821D2EC1D3B6BAB00191949 /* Frameworks */,
+				2821D2ED1D3B6BAB00191949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "五子棋";
+			productName = "五子棋";
+			productReference = 2821D2EF1D3B6BAB00191949 /* 五子棋.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2821D3021D3B6BAB00191949 /* 五子棋Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2821D31A1D3B6BAB00191949 /* Build configuration list for PBXNativeTarget "五子棋Tests" */;
+			buildPhases = (
+				2821D2FF1D3B6BAB00191949 /* Sources */,
+				2821D3001D3B6BAB00191949 /* Frameworks */,
+				2821D3011D3B6BAB00191949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2821D3051D3B6BAB00191949 /* PBXTargetDependency */,
+			);
+			name = "五子棋Tests";
+			productName = "五子棋Tests";
+			productReference = 2821D3031D3B6BAB00191949 /* 五子棋Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2821D30D1D3B6BAB00191949 /* 五子棋UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2821D31D1D3B6BAB00191949 /* Build configuration list for PBXNativeTarget "五子棋UITests" */;
+			buildPhases = (
+				2821D30A1D3B6BAB00191949 /* Sources */,
+				2821D30B1D3B6BAB00191949 /* Frameworks */,
+				2821D30C1D3B6BAB00191949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2821D3101D3B6BAB00191949 /* PBXTargetDependency */,
+			);
+			name = "五子棋UITests";
+			productName = "五子棋UITests";
+			productReference = 2821D30E1D3B6BAB00191949 /* 五子棋UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2821D2E71D3B6BAB00191949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "叶俊中";
+				TargetAttributes = {
+					2821D2EE1D3B6BAB00191949 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J4YG2TQZNT;
+					};
+					2821D3021D3B6BAB00191949 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J4YG2TQZNT;
+						TestTargetID = 2821D2EE1D3B6BAB00191949;
+					};
+					2821D30D1D3B6BAB00191949 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = J4YG2TQZNT;
+						TestTargetID = 2821D2EE1D3B6BAB00191949;
+					};
+				};
+			};
+			buildConfigurationList = 2821D2EA1D3B6BAB00191949 /* Build configuration list for PBXProject "五子棋" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2821D2E61D3B6BAB00191949;
+			productRefGroup = 2821D2F01D3B6BAB00191949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2821D2EE1D3B6BAB00191949 /* 五子棋 */,
+				2821D3021D3B6BAB00191949 /* 五子棋Tests */,
+				2821D30D1D3B6BAB00191949 /* 五子棋UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2821D2ED1D3B6BAB00191949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2821D2FD1D3B6BAB00191949 /* LaunchScreen.storyboard in Resources */,
+				2821D2FA1D3B6BAB00191949 /* Assets.xcassets in Resources */,
+				2821D2F81D3B6BAB00191949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821D3011D3B6BAB00191949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821D30C1D3B6BAB00191949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2821D2EB1D3B6BAB00191949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2821D2F51D3B6BAB00191949 /* ViewController.swift in Sources */,
+				2821D3211D3B6BBE00191949 /* line.swift in Sources */,
+				2821D2F31D3B6BAB00191949 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821D2FF1D3B6BAB00191949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2821D3081D3B6BAB00191949 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2821D30A1D3B6BAB00191949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2821D3131D3B6BAB00191949 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2821D3051D3B6BAB00191949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2821D2EE1D3B6BAB00191949 /* 五子棋 */;
+			targetProxy = 2821D3041D3B6BAB00191949 /* PBXContainerItemProxy */;
+		};
+		2821D3101D3B6BAB00191949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2821D2EE1D3B6BAB00191949 /* 五子棋 */;
+			targetProxy = 2821D30F1D3B6BAB00191949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2821D2F61D3B6BAB00191949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2821D2F71D3B6BAB00191949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2821D2FB1D3B6BAB00191949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2821D2FC1D3B6BAB00191949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2821D3151D3B6BAB00191949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2821D3161D3B6BAB00191949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2821D3181D3B6BAB00191949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = appicon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2821D3191D3B6BAB00191949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = appicon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2821D31B1D3B6BAB00191949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "五子棋Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/五子棋.app/五子棋";
+			};
+			name = Debug;
+		};
+		2821D31C1D3B6BAB00191949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "五子棋Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/五子棋.app/五子棋";
+			};
+			name = Release;
+		};
+		2821D31E1D3B6BAB00191949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "五子棋UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "五子棋";
+			};
+			name = Debug;
+		};
+		2821D31F1D3B6BAB00191949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "五子棋UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yjz.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "五子棋";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2821D2EA1D3B6BAB00191949 /* Build configuration list for PBXProject "五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2821D3151D3B6BAB00191949 /* Debug */,
+				2821D3161D3B6BAB00191949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2821D3171D3B6BAB00191949 /* Build configuration list for PBXNativeTarget "五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2821D3181D3B6BAB00191949 /* Debug */,
+				2821D3191D3B6BAB00191949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2821D31A1D3B6BAB00191949 /* Build configuration list for PBXNativeTarget "五子棋Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2821D31B1D3B6BAB00191949 /* Debug */,
+				2821D31C1D3B6BAB00191949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2821D31D1D3B6BAB00191949 /* Build configuration list for PBXNativeTarget "五子棋UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2821D31E1D3B6BAB00191949 /* Debug */,
+				2821D31F1D3B6BAB00191949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2821D2E71D3B6BAB00191949 /* Project object */;
+}
